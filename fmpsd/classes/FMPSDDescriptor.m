@@ -360,7 +360,7 @@
                  Actual value (double)
                  
                  */
-                 
+
                 uint32_t unitType = [stream readInt32];
                 //NSLog(@"unitType: %@", FMPSDStringForHFSTypeCode(unitType));
                  

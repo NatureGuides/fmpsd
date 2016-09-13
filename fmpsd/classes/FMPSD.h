@@ -13,14 +13,13 @@
 #import <Accelerate/Accelerate.h>
 #import "FMPSDLayer.h"
 
-#ifdef DEBUG
-    #define debug(...) NSLog(__VA_ARGS__)
 #ifndef FMAssert
     #define FMAssert assert
 #endif
+#ifdef DEBUG
+    #define debug(...) NSLog(__VA_ARGS__)
 #else
     #define debug(...)
-    #define FMAssert(...)
 #endif
 
 
