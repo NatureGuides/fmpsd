@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F40907731D8844D600F456FC /* FMPSD.h in Headers */ = {isa = PBXBuildFile; fileRef = CC4381A7177251AF009D82C3 /* FMPSD.h */; };
+		F40907731D8844D600F456FC /* FMPSD.h in Headers */ = {isa = PBXBuildFile; fileRef = CC4381A7177251AF009D82C3 /* FMPSD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F40907741D8844D600F456FC /* FMPSD.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4381A8177251AF009D82C3 /* FMPSD.m */; };
-		F40907751D8844D600F456FC /* FMPSDCIFilters.h in Headers */ = {isa = PBXBuildFile; fileRef = CC4381A9177251AF009D82C3 /* FMPSDCIFilters.h */; };
+		F40907751D8844D600F456FC /* FMPSDCIFilters.h in Headers */ = {isa = PBXBuildFile; fileRef = CC4381A9177251AF009D82C3 /* FMPSDCIFilters.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F40907761D8844D600F456FC /* FMPSDCIFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4381AA177251AF009D82C3 /* FMPSDCIFilters.m */; };
-		F40907771D8844D600F456FC /* FMPSDDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = CC4381AB177251AF009D82C3 /* FMPSDDescriptor.h */; };
+		F40907771D8844D600F456FC /* FMPSDDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = CC4381AB177251AF009D82C3 /* FMPSDDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F40907781D8844D600F456FC /* FMPSDDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4381AC177251AF009D82C3 /* FMPSDDescriptor.m */; };
-		F40907791D8844D600F456FC /* FMPSDLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CC4381AD177251AF009D82C3 /* FMPSDLayer.h */; };
+		F40907791D8844D600F456FC /* FMPSDLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CC4381AD177251AF009D82C3 /* FMPSDLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F409077A1D8844D600F456FC /* FMPSDLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4381AE177251AF009D82C3 /* FMPSDLayer.m */; };
-		F409077B1D8844D600F456FC /* FMPSDStream.h in Headers */ = {isa = PBXBuildFile; fileRef = CC4381AF177251AF009D82C3 /* FMPSDStream.h */; };
+		F409077B1D8844D600F456FC /* FMPSDStream.h in Headers */ = {isa = PBXBuildFile; fileRef = CC4381AF177251AF009D82C3 /* FMPSDStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F409077C1D8844D600F456FC /* FMPSDStream.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4381B0177251AF009D82C3 /* FMPSDStream.m */; };
-		F409077D1D8844D600F456FC /* FMPSDUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = CC4381B1177251AF009D82C3 /* FMPSDUtils.h */; };
+		F409077D1D8844D600F456FC /* FMPSDUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = CC4381B1177251AF009D82C3 /* FMPSDUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F409077E1D8844D600F456FC /* FMPSDUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4381B2177251AF009D82C3 /* FMPSDUtils.m */; };
-		F409077F1D8844D600F456FC /* FMPSDTextEngineParser.h in Headers */ = {isa = PBXBuildFile; fileRef = AEB344A617BE3ECB00335650 /* FMPSDTextEngineParser.h */; };
+		F409077F1D8844D600F456FC /* FMPSDTextEngineParser.h in Headers */ = {isa = PBXBuildFile; fileRef = AEB344A617BE3ECB00335650 /* FMPSDTextEngineParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F40907801D8844D600F456FC /* FMPSDTextEngineParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB344A717BE3ECB00335650 /* FMPSDTextEngineParser.m */; };
-		F40907811D8844DB00F456FC /* FMABR.h in Headers */ = {isa = PBXBuildFile; fileRef = CC6097161995418E00B5B6C0 /* FMABR.h */; };
+		F40907811D8844DB00F456FC /* FMABR.h in Headers */ = {isa = PBXBuildFile; fileRef = CC6097161995418E00B5B6C0 /* FMABR.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F40907821D8844DB00F456FC /* FMABR.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6097171995418E00B5B6C0 /* FMABR.m */; };
 /* End PBXBuildFile section */
 
