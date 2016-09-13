@@ -132,9 +132,11 @@
     NSString *groupEndMarkerName = @"</Layer group>";
     // Layer name: Pascal string, padded to a multiple of 4 bytes.
     [extraDataStream writePascalString:groupEndMarkerName withPadding:4];
-    
+
+    #ifdef DEBUG
     FMAssert((([extraDataStream location] - loc) % 4) == 0); // padding has to be to 4!
-    
+    #endif
+
     
     [extraDataStream writeInt32:'8BIM'];
     [extraDataStream writeInt32:'lsct'];
@@ -250,9 +252,11 @@
         #endif
         // Layer name: Pascal string, padded to a multiple of 4 bytes.
         [extraDataStream writePascalString:_layerName ? _layerName : @"" withPadding:4];
-        
+
+        #ifdef DEBUG
         FMAssert((([extraDataStream location] - loc) % 4) == 0); // padding has to be to 4!
-        
+        #endif
+
         if (_isGroup) {
             [extraDataStream writeInt32:'8BIM'];
             [extraDataStream writeInt32:'lsct'];
@@ -750,9 +754,11 @@
     
     //debug(@"endLocation: %ld vs %ld", endLocation, [stream location]);
     //debug(@"Done reading layer %@ - offset %ld", _layerName, [stream location]);
-    
+
+    #ifdef DEBUG
     FMAssert(endLocation == [stream location]); // the layer should end where we expect it to…
-    
+    #endif
+
     return success;
 }
 
