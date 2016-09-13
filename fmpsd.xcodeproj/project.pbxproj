@@ -7,34 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		467BE765182B258D008D7645 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 467BE764182B258D008D7645 /* Accelerate.framework */; };
-		AEB344A817BE3ECB00335650 /* FMPSDTextEngineParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB344A717BE3ECB00335650 /* FMPSDTextEngineParser.m */; };
-		CC4381B3177251AF009D82C3 /* FMPSD.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4381A8177251AF009D82C3 /* FMPSD.m */; };
-		CC4381B4177251AF009D82C3 /* FMPSDCIFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4381AA177251AF009D82C3 /* FMPSDCIFilters.m */; };
-		CC4381B5177251AF009D82C3 /* FMPSDDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4381AC177251AF009D82C3 /* FMPSDDescriptor.m */; };
-		CC4381B6177251AF009D82C3 /* FMPSDLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4381AE177251AF009D82C3 /* FMPSDLayer.m */; };
-		CC4381B7177251AF009D82C3 /* FMPSDStream.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4381B0177251AF009D82C3 /* FMPSDStream.m */; };
-		CC4381B8177251AF009D82C3 /* FMPSDUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4381B2177251AF009D82C3 /* FMPSDUtils.m */; };
-		CC4381BA17725E6D009D82C3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4381B917725E6C009D82C3 /* Cocoa.framework */; };
-		CC4381BC17725E78009D82C3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4381BB17725E78009D82C3 /* QuartzCore.framework */; };
-		CC6097181995418E00B5B6C0 /* FMABR.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6097171995418E00B5B6C0 /* FMABR.m */; };
-		CCF682FB17724EB800478D7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF682FA17724EB800478D7A /* Foundation.framework */; };
-		CCF682FE17724EB800478D7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF682FD17724EB800478D7A /* main.m */; };
-		CCF6830217724EB800478D7A /* fmpsd.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CCF6830117724EB800478D7A /* fmpsd.1 */; };
+		F40907731D8844D600F456FC /* FMPSD.h in Headers */ = {isa = PBXBuildFile; fileRef = CC4381A7177251AF009D82C3 /* FMPSD.h */; };
+		F40907741D8844D600F456FC /* FMPSD.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4381A8177251AF009D82C3 /* FMPSD.m */; };
+		F40907751D8844D600F456FC /* FMPSDCIFilters.h in Headers */ = {isa = PBXBuildFile; fileRef = CC4381A9177251AF009D82C3 /* FMPSDCIFilters.h */; };
+		F40907761D8844D600F456FC /* FMPSDCIFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4381AA177251AF009D82C3 /* FMPSDCIFilters.m */; };
+		F40907771D8844D600F456FC /* FMPSDDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = CC4381AB177251AF009D82C3 /* FMPSDDescriptor.h */; };
+		F40907781D8844D600F456FC /* FMPSDDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4381AC177251AF009D82C3 /* FMPSDDescriptor.m */; };
+		F40907791D8844D600F456FC /* FMPSDLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CC4381AD177251AF009D82C3 /* FMPSDLayer.h */; };
+		F409077A1D8844D600F456FC /* FMPSDLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4381AE177251AF009D82C3 /* FMPSDLayer.m */; };
+		F409077B1D8844D600F456FC /* FMPSDStream.h in Headers */ = {isa = PBXBuildFile; fileRef = CC4381AF177251AF009D82C3 /* FMPSDStream.h */; };
+		F409077C1D8844D600F456FC /* FMPSDStream.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4381B0177251AF009D82C3 /* FMPSDStream.m */; };
+		F409077D1D8844D600F456FC /* FMPSDUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = CC4381B1177251AF009D82C3 /* FMPSDUtils.h */; };
+		F409077E1D8844D600F456FC /* FMPSDUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4381B2177251AF009D82C3 /* FMPSDUtils.m */; };
+		F409077F1D8844D600F456FC /* FMPSDTextEngineParser.h in Headers */ = {isa = PBXBuildFile; fileRef = AEB344A617BE3ECB00335650 /* FMPSDTextEngineParser.h */; };
+		F40907801D8844D600F456FC /* FMPSDTextEngineParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB344A717BE3ECB00335650 /* FMPSDTextEngineParser.m */; };
+		F40907811D8844DB00F456FC /* FMABR.h in Headers */ = {isa = PBXBuildFile; fileRef = CC6097161995418E00B5B6C0 /* FMABR.h */; };
+		F40907821D8844DB00F456FC /* FMABR.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6097171995418E00B5B6C0 /* FMABR.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		CCF682F517724EB800478D7A /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-				CCF6830217724EB800478D7A /* fmpsd.1 in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		467BE764182B258D008D7645 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
@@ -56,22 +45,17 @@
 		CC4381BB17725E78009D82C3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		CC6097161995418E00B5B6C0 /* FMABR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMABR.h; path = fmpsd/classes/FMABR.h; sourceTree = "<group>"; };
 		CC6097171995418E00B5B6C0 /* FMABR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMABR.m; path = fmpsd/classes/FMABR.m; sourceTree = "<group>"; };
-		CCF682F717724EB800478D7A /* fmpsd */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = fmpsd; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF682FA17724EB800478D7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		CCF682FD17724EB800478D7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CCF6830017724EB800478D7A /* fmpsd-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fmpsd-Prefix.pch"; sourceTree = "<group>"; };
-		CCF6830117724EB800478D7A /* fmpsd.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = fmpsd.1; sourceTree = "<group>"; };
+		F409076B1D8844CF00F456FC /* fmpsd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = fmpsd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F409076E1D8844CF00F456FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CCF682F417724EB800478D7A /* Frameworks */ = {
+		F40907671D8844CF00F456FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				467BE765182B258D008D7645 /* Accelerate.framework in Frameworks */,
-				CC4381BA17725E6D009D82C3 /* Cocoa.framework in Frameworks */,
-				CCF682FB17724EB800478D7A /* Foundation.framework in Frameworks */,
-				CC4381BC17725E78009D82C3 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +76,7 @@
 			children = (
 				CC6097191995419700B5B6C0 /* abr */,
 				CCF682FC17724EB800478D7A /* fmpsd */,
+				F409076C1D8844CF00F456FC /* fmpsd */,
 				CCF682F917724EB800478D7A /* Frameworks */,
 				CCF682F817724EB800478D7A /* Products */,
 			);
@@ -100,7 +85,7 @@
 		CCF682F817724EB800478D7A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CCF682F717724EB800478D7A /* fmpsd */,
+				F409076B1D8844CF00F456FC /* fmpsd.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,8 +118,6 @@
 				CC4381B2177251AF009D82C3 /* FMPSDUtils.m */,
 				AEB344A617BE3ECB00335650 /* FMPSDTextEngineParser.h */,
 				AEB344A717BE3ECB00335650 /* FMPSDTextEngineParser.m */,
-				CCF682FD17724EB800478D7A /* main.m */,
-				CCF6830117724EB800478D7A /* fmpsd.1 */,
 				CCF682FF17724EB800478D7A /* Supporting Files */,
 			);
 			path = fmpsd;
@@ -143,21 +126,48 @@
 		CCF682FF17724EB800478D7A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F409076E1D8844CF00F456FC /* Info.plist */,
 				CCF6830017724EB800478D7A /* fmpsd-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F409076C1D8844CF00F456FC /* fmpsd */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = fmpsd;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		F40907681D8844CF00F456FC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40907811D8844DB00F456FC /* FMABR.h in Headers */,
+				F40907771D8844D600F456FC /* FMPSDDescriptor.h in Headers */,
+				F409077B1D8844D600F456FC /* FMPSDStream.h in Headers */,
+				F409077D1D8844D600F456FC /* FMPSDUtils.h in Headers */,
+				F40907751D8844D600F456FC /* FMPSDCIFilters.h in Headers */,
+				F40907791D8844D600F456FC /* FMPSDLayer.h in Headers */,
+				F40907731D8844D600F456FC /* FMPSD.h in Headers */,
+				F409077F1D8844D600F456FC /* FMPSDTextEngineParser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		CCF682F617724EB800478D7A /* fmpsd */ = {
+		F409076A1D8844CF00F456FC /* fmpsd */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CCF6830517724EB800478D7A /* Build configuration list for PBXNativeTarget "fmpsd" */;
+			buildConfigurationList = F40907701D8844CF00F456FC /* Build configuration list for PBXNativeTarget "fmpsd" */;
 			buildPhases = (
-				CCF682F317724EB800478D7A /* Sources */,
-				CCF682F417724EB800478D7A /* Frameworks */,
-				CCF682F517724EB800478D7A /* CopyFiles */,
+				F40907661D8844CF00F456FC /* Sources */,
+				F40907671D8844CF00F456FC /* Frameworks */,
+				F40907681D8844CF00F456FC /* Headers */,
+				F40907691D8844CF00F456FC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -165,8 +175,8 @@
 			);
 			name = fmpsd;
 			productName = fmpsd;
-			productReference = CCF682F717724EB800478D7A /* fmpsd */;
-			productType = "com.apple.product-type.tool";
+			productReference = F409076B1D8844CF00F456FC /* fmpsd.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -176,6 +186,12 @@
 			attributes = {
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Flying Meat Inc.";
+				TargetAttributes = {
+					F409076A1D8844CF00F456FC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = CCF682F217724EB800478D7A /* Build configuration list for PBXProject "fmpsd" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -189,25 +205,34 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CCF682F617724EB800478D7A /* fmpsd */,
+				F409076A1D8844CF00F456FC /* fmpsd */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		F40907691D8844CF00F456FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		CCF682F317724EB800478D7A /* Sources */ = {
+		F40907661D8844CF00F456FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC4381B3177251AF009D82C3 /* FMPSD.m in Sources */,
-				CC4381B5177251AF009D82C3 /* FMPSDDescriptor.m in Sources */,
-				CC4381B4177251AF009D82C3 /* FMPSDCIFilters.m in Sources */,
-				CC4381B6177251AF009D82C3 /* FMPSDLayer.m in Sources */,
-				CC4381B7177251AF009D82C3 /* FMPSDStream.m in Sources */,
-				CC4381B8177251AF009D82C3 /* FMPSDUtils.m in Sources */,
-				CC6097181995418E00B5B6C0 /* FMABR.m in Sources */,
-				CCF682FE17724EB800478D7A /* main.m in Sources */,
-				AEB344A817BE3ECB00335650 /* FMPSDTextEngineParser.m in Sources */,
+				F40907781D8844D600F456FC /* FMPSDDescriptor.m in Sources */,
+				F40907801D8844D600F456FC /* FMPSDTextEngineParser.m in Sources */,
+				F40907821D8844DB00F456FC /* FMABR.m in Sources */,
+				F409077C1D8844D600F456FC /* FMPSDStream.m in Sources */,
+				F40907761D8844D600F456FC /* FMPSDCIFilters.m in Sources */,
+				F409077A1D8844D600F456FC /* FMPSDLayer.m in Sources */,
+				F409077E1D8844D600F456FC /* FMPSDUtils.m in Sources */,
+				F40907741D8844D600F456FC /* FMPSD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,21 +296,85 @@
 			};
 			name = Release;
 		};
-		CCF6830617724EB800478D7A /* Debug */ = {
+		F40907711D8844CF00F456FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "fmpsd/fmpsd-Prefix.pch";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = fmpsd/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flyingmeat.fmpsd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		CCF6830717724EB800478D7A /* Release */ = {
+		F40907721D8844CF00F456FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "fmpsd/fmpsd-Prefix.pch";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = fmpsd/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flyingmeat.fmpsd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -301,14 +390,13 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CCF6830517724EB800478D7A /* Build configuration list for PBXNativeTarget "fmpsd" */ = {
+		F40907701D8844CF00F456FC /* Build configuration list for PBXNativeTarget "fmpsd" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CCF6830617724EB800478D7A /* Debug */,
-				CCF6830717724EB800478D7A /* Release */,
+				F40907711D8844CF00F456FC /* Debug */,
+				F40907721D8844CF00F456FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

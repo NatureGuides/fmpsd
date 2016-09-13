@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CCF682F617724EB800478D7A"
-               BuildableName = "fmpsd"
+               BlueprintIdentifier = "F409076A1D8844CF00F456FC"
+               BuildableName = "fmpsd.framework"
                BlueprintName = "fmpsd"
                ReferencedContainer = "container:fmpsd.xcodeproj">
             </BuildableReference>
@@ -32,8 +32,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CCF682F617724EB800478D7A"
-            BuildableName = "fmpsd"
+            BlueprintIdentifier = "F409076A1D8844CF00F456FC"
+            BuildableName = "fmpsd.framework"
             BlueprintName = "fmpsd"
             ReferencedContainer = "container:fmpsd.xcodeproj">
          </BuildableReference>
@@ -55,8 +55,8 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CCF682F617724EB800478D7A"
-            BuildableName = "fmpsd"
+            BlueprintIdentifier = "F409076A1D8844CF00F456FC"
+            BuildableName = "fmpsd.framework"
             BlueprintName = "fmpsd"
             ReferencedContainer = "container:fmpsd.xcodeproj">
          </BuildableReference>
@@ -74,8 +74,8 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CCF682F617724EB800478D7A"
-            BuildableName = "fmpsd"
+            BlueprintIdentifier = "F409076A1D8844CF00F456FC"
+            BuildableName = "fmpsd.framework"
             BlueprintName = "fmpsd"
             ReferencedContainer = "container:fmpsd.xcodeproj">
          </BuildableReference>
