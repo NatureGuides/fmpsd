@@ -12,6 +12,10 @@
 #import <CoreImage/CoreImage.h>
 #import <Accelerate/Accelerate.h>
 #import "FMPSDLayer.h"
+#import "FMPSDUtils.h"
+#import "FMPSDTextEngineParser.h"
+#import "FMPSDCIFilters.h"
+#import "FMABR.h"
 
 #ifndef FMAssert
     #define FMAssert assert
