@@ -1060,11 +1060,11 @@
         
         dispatch_apply(_height, queue, ^(size_t row) {
             
-            FMPSDPixel *p = &c[_width * row];
+            FMPSDPixel *p = &c[self->_width * row];
             
-            size_t planeStart = (row * _width);
+            size_t planeStart = (row * self->_width);
             int32_t x = 0;
-            while (x < _width) {
+            while (x < self->_width) {
                 
                 size_t planeLoc = planeStart + x;
                 
