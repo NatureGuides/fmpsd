@@ -77,6 +77,7 @@ extern BOOL FMPSDPrintDebugInfo;
 }
 
 
+@property (readonly) CGSize size;
 @property (assign) uint32_t width;
 @property (assign) uint32_t height;
 @property (assign) uint16_t depth;

@@ -435,6 +435,11 @@ BOOL FMPSDPrintDebugInfo = NO;
     return YES;
 }
 
+- (CGSize)size
+{
+    return CGSizeMake(self.width, self.height);
+}
+
 - (void)writeToFile:(NSURL*)fileURL {
     
     _channels = 4; // we're always 4.  sorry about that!
