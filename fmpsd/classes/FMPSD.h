@@ -20,11 +20,11 @@
 #ifndef FMAssert
     #define FMAssert assert
 #endif
-#ifdef DEBUG
-    #define debug(...) NSLog(__VA_ARGS__)
-#else
+//#ifdef DEBUG
+//    #define debug(...) NSLog(__VA_ARGS__)
+//#else
     #define debug(...)
-#endif
+//#endif
 
 
 #define TSDebug(...) { if (TSDebugOn) { NSLog(__VA_ARGS__); } }
